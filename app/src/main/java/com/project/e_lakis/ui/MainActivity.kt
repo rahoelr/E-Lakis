@@ -1,6 +1,7 @@
 package com.project.e_lakis.ui
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.project.e_lakis.R
@@ -13,9 +14,15 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnLapor.setOnClickListener{
+        binding.btnWisma.setOnClickListener{
             val reportAct = Intent(this@MainActivity, ReportActivity::class.java)
             startActivity(reportAct)
         }
+
+        binding.btnKelas.setOnClickListener{
+            val reportAct2 = Intent(this@MainActivity, ReportActivity2::class.java)
+            startActivity(reportAct2)
+        }
+
     }
 }

@@ -7,42 +7,51 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:gravity="center"
-    android:backgroundTint="@color/white"
+    android:background="#FFFFFF"
     tools:context=".ui.MainActivity">
 
 
-    <TextView
-        android:id="@+id/tv_lakis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="E-LAKIS"
-        android:textSize="50dp"
-        android:layout_marginBottom="20dp"
-        android:textStyle="bold"
-        />
-
     <ImageView
-        android:layout_marginVertical="20dp"
+        android:layout_marginVertical="30dp"
         android:id="@+id/img_logo"
         android:layout_width="wrap_content"
         android:layout_height="240dp"
-        android:src="@drawable/ipdn_logo"/>
+        android:src="@drawable/logo_fix"/>
 
     <TextView
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Laporan Kerusakan Inventaris Wisma"
+        android:text="Praja Lapor"
         android:textStyle="bold"
         android:layout_marginVertical="20dp"
-        android:textSize="30dp"
+        android:textSize="32dp"
+        android:letterSpacing="0.07"
         android:textAlignment="center"/>
 
     <Button
-        android:id="@+id/btn_lapor"
-        android:text="Mulai Lapor"
+        android:id="@+id/btn_wisma"
+        android:text="WISMA"
         android:layout_width="300dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:padding="12dp"
-        android:layout_height="wrap_content"/>
+        android:textSize="20dp"
+        android:backgroundTint="#FF0000"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:layout_height="70dp"/>
+
+    <Button
+        android:id="@+id/btn_kelas"
+        android:text="KELAS"
+        android:letterSpacing="0.1"
+        android:layout_width="300dp"
+        android:layout_marginTop="40dp"
+        android:padding="12dp"
+        android:textSize="20dp"
+        android:backgroundTint="#FF0000"
+        android:textStyle="bold"
+        android:layout_height="70dp"/>
+
 
 </LinearLayout>
