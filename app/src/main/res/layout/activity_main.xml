@@ -22,11 +22,22 @@
         android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Praja Lapor"
+        android:text="PRAJA REPORT"
         android:textStyle="bold"
         android:layout_marginVertical="20dp"
         android:textSize="32dp"
         android:letterSpacing="0.07"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:textColor="#00008B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Wildan Darsono S.STP, M.Tr.IP)"
+        android:textStyle="bold"
+        android:layout_marginVertical="10dp"
+        android:textSize="22dp"
+        android:letterSpacing="0.06"
         android:textAlignment="center"/>
 
     <Button
@@ -37,6 +48,7 @@
         android:padding="12dp"
         android:textSize="20dp"
         android:backgroundTint="#FF0000"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:letterSpacing="0.1"
         android:layout_height="70dp"/>
@@ -44,6 +56,7 @@
     <Button
         android:id="@+id/btn_kelas"
         android:text="KELAS"
+        android:textColor="@color/white"
         android:letterSpacing="0.1"
         android:layout_width="300dp"
         android:layout_marginTop="40dp"
